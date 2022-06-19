@@ -13,17 +13,8 @@ header{
     background-color: black;
     padding-top: 12px;
     padding-left: 100px;
+    display: flex;
     
-}
-
-h1{
-    width: 70px;
-    height: 70px;
-    background-image: url(../Img/musicnote.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 12 4;
-    text-indent: -9999px;
 }
 
 h1 a{
@@ -32,10 +23,126 @@ h1 a{
     height: 70px;
 }
 
+h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../Img/musicnote.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+}
+
+.navigation{
+    padding-top: 30px;
+    margin-left: 180px;
+    clear: both;
+}
+
 .navigation ul li{
     float: left;
-    margin: 10px;
     font-size: 18px;
     color: white;
+    padding-left: 40px;
+}
+
+/* aq iwyeba maini */
+
+main{
+    width: 100%;
+    background-color: white;
+}
+main div p{
+    padding-left: 109px;
+    padding-top: 51px;
+    font-size: 24px;
+}
+
+.hits{
+    display: flex;
+}
+
+.musicbox{
+    width: 270px;
+    height: 270px;
+    border: 1px solid black ;
+    margin: 30px auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.likes img{
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.sound img{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 57px;
+    width: 25%;
+    height: 60px;
+    overflow: hidden;
+    float: left;
+}
+
+.trackname p{
+    padding-left: 12px;
+    padding-top: 145px;
+    font-size: 18;
+}
+
+.artistname p{
+    padding-left: 12px;
+    padding-top: 13px;
+    font-size: 14px;
+}
+
+.goon{
+    clear: both;
+    padding-top: 75px;
+    
+    
+}
+
+/* aq iwyeba footeri */
+footer{
+    height: 354px;
+    background-color: black;
+    margin-top: 100px;
+    padding-top: 27px;
+}
+h2 a{
+    display: block;
+    height: 150px;
+    width: 150px;
+
+}
+
+h2{
+    width: 150px;
+    height: 150px;
+    background-image: url(../Img/musicnote.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+    margin: 0 auto;
+} 
+
+.footnote{
+    width: 150px;
+    margin: 26px auto;
     text-align: center;
+    font-size: 18;
+    color: white;
+}
+
+.footnote2{
+    width: 150px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 18;
+    color: white;
 }
