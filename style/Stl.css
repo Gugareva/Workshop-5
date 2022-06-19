@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 94px;
+    width: 100%;
+    background-color: black;
+    padding-top: 12px;
+    padding-left: 100px;
+    
+}
+
+h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../Img/musicnote.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 12 4;
+    text-indent: -9999px;
+}
+
+h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+.navigation ul li{
+    float: left;
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
